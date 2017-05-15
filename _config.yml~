@@ -26,6 +26,7 @@ excerpt_seperator: <bloop>
 
 # Build settings
 markdown: kramdown
+theme: minimal
 gems:
   - jekyll-feed
 exclude:
