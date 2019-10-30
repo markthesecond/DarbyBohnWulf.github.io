@@ -9,10 +9,10 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.4.3"
+gem "jekyll", "4"
 
 # TWBS4, because what else would I use?
-gem 'bootstrap', '~> 4.0.0.alpha6'
+gem "bootstrap", "4"
 
 # And tether for good measure...
 source 'https://rails-assets.org' do
@@ -24,9 +24,6 @@ end
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
-group :jekyll_plugins do
-   gem "jekyll-feed", "~> 0.6"
-end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
