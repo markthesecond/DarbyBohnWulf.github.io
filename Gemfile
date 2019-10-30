@@ -12,7 +12,7 @@ ruby RUBY_VERSION
 gem "jekyll", "4"
 
 # TWBS4, because what else would I use?
-gem "bootstrap", "4"
+gem "bootstrap", "4.3.1"
 
 # And tether for good measure...
 source 'https://rails-assets.org' do
