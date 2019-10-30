@@ -9,10 +9,10 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "4"
+gem "jekyll", ">= 4"
 
 # TWBS4, because what else would I use?
-gem "bootstrap", "4"
+gem "bootstrap", ">= 4.3.1"
 
 # And tether for good measure...
 source 'https://rails-assets.org' do
